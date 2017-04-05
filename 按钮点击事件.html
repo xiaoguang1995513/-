@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var times=0;
+function myFunction(x) {
+  x.style.background =times%2==0? 'red':'white';    
+		times++;
+		}
+</script>
+
+<input type="button" value="点我改变颜色！" onclick="myFunction(this)"/>
+
+</body>
+</html>
